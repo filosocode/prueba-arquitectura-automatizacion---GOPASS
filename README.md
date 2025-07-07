@@ -21,7 +21,7 @@ prueba-arquitectura-automatizacion/
 
 ---
 
-## ✅ Requisitos generales
+## Requisitos generales
 
 - Python 3.10 o superior
 - Docker + Docker Compose
@@ -107,7 +107,7 @@ chmod +x backup.sh
 
 ---
 
-## 🧠 Autor
+## Autor
 
 **Andrés Muñoz**  
 📞 3138717169  
