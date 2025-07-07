@@ -1,0 +1,5 @@
+ejemplo1.txt: 1 líneas
+ejemplo2.txt: 3 líneas
+ejemplo3.txt: 0 líneas
+
+Total de archivos procesados: 3
