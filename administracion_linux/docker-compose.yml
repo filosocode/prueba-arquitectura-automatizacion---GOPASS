@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  linux:
+    image: ubuntu:latest
+    container_name: linux_simulado
+    volumes:
+      - .:/script      # Monta tu carpeta actual dentro del contenedor
+    working_dir: /script
+    command: bash
+    tty: true

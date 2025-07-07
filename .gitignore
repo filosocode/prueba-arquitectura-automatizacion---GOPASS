@@ -1,16 +1,22 @@
-# Ignorar entorno virtual
+# Entorno virtual
 .venv/
 
 # Archivos de Python compilados
 __pycache__/
 *.pyc
 
-# Archivos de logs (si usas)
+# Archivos de logs
 *.log
 
-# Archivos de base de datos o conexiones
+# Archivos de base de datos (por si usas SQLite u otros temporales)
 *.db
 
-# Docker (si usas volúmenes montados locales)
-*.pid
+# Variables de entorno (Docker, scripts, seguridad)
 .env
+
+# Docker
+*.pid
+
+# Archivos simulados de backup (si llegas a correr el script localmente)
+*.tar.gz
+/backups/
