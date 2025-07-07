@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_usuarios
+    restart: always
+    environment:
+      POSTGRES_USER: gopass
+      POSTGRES_PASSWORD: gopass
+      POSTGRES_DB: prueba_db_gopass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql

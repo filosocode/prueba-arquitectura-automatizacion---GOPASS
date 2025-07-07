@@ -1,2 +1,16 @@
 # Ignorar entorno virtual
 .venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Archivos de logs (si usas)
+*.log
+
+# Archivos de base de datos o conexiones
+*.db
+
+# Docker (si usas volúmenes montados locales)
+*.pid
+.env
